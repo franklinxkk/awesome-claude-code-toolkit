@@ -180,6 +180,7 @@ Over 176 production-ready plugins that extend Claude Code with domain-specific c
 | [github-issue-manager](plugins/github-issue-manager/) | GitHub issue triage, creation, and management |
 | [harness-evolver](https://github.com/raphaelchristi/harness-evolver) | LangSmith-native autonomous agent optimization. Multi-agent proposers evolve prompts, routing, tools, and architecture in isolated git worktrees. Install: `npx harness-evolver@latest` |
 | [helm-charts](plugins/helm-charts/) | Helm chart generation and upgrade management |
+| [idle-timing](https://github.com/clankercode/claude-inject-idle-time) | Injects hidden timing context (local time with UTC offset, idle seconds since last reply, previous-turn duration) into every user prompt so the model knows how long the conversation has been paused. Ships a statusline fragment for a live elapsed-time readout and a visible `[after Xm Ys]` note when you return from >10s idle. 57 tests, dual Unlicense/CC0. |
 | [import-organizer](plugins/import-organizer/) | Organize, sort, and clean import statements |
 | [infrastructure-maintainer](plugins/infrastructure-maintainer/) | Infrastructure maintenance with security audits and update management |
 | [ios-developer](plugins/ios-developer/) | iOS and Swift development with SwiftUI views and models |
