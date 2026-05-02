@@ -1,6 +1,6 @@
 # Claude Code Toolkit
 
-**The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills (+400,000 via [SkillKit](https://agenstskills.com)), 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 14 MCP configs, 26 companion apps, 53 ecosystem entries, and more.**
+**The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills (+400,000 via [SkillKit](https://agenstskills.com)), 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 14 MCP configs, 26 companion apps, 54 ecosystem entries, and more.**
 
 <p align="center">
   <a href="https://trendshift.io/repositories/21839" target="_blank">
@@ -1025,6 +1025,7 @@ Notable projects, directories, and resources across the Claude Code ecosystem.
 | [ccusage](https://github.com/ryoppippi/ccusage) | 11,500+ | CLI for analyzing Claude Code usage from local JSONL files. Offline mode, zero API calls needed |
 | [getburnd](https://github.com/garvitsurana271/burnd) | -- | Local-first cost-control CLI. Reads `~/.claude/*.jsonl`, finds 8 cost leak patterns, prints savings estimates, generates shareable report URL. MIT |
 | [claude-token-lens](https://github.com/wassimbensalem/claude-token-lens) | 587+ installs | Real-time token attribution from local Claude Code JSONL sessions — see which tool, agent, MCP server, or skill is burning your quota. Live Ink dashboard, burn rate, ETA, 5h + 7-day tracking, zero telemetry. `npm install -g claude-token-lens` |
+| [agenttrace](https://github.com/luoyuctl/agenttrace) | new | TUI observability for Claude Code, Codex CLI, Gemini CLI, Aider, Cursor exports, and more. Tracks cost, tokens, tool failures, latency, anomalies, health, diffs, and CI gates from local session logs |
 | [cc-statistics](https://github.com/androidZzT/cc-statistics) | 270+ | Three-in-one Claude Code stats: CLI + Web + native macOS SwiftUI panel. Token costs, code changes by language, efficiency scoring, weekly reports. Supports Codex and Cursor too |
 | [cc-discipline](https://github.com/TechHU-GS/cc-discipline) | new | Guardrails for Claude Code — shell hooks that physically block bad behavior (edit loops, skipped verification, destructive git), not just markdown rules. Streak-breaker hard-stops at 5 edits, pre-edit-guard enforces debugging process, 7 rules, 7 skills, 2 subagents. Interactive installer with append mode. `bash ~/.cc-discipline/init.sh` |
 | [ccpm](https://github.com/automazeio/ccpm) | 7,600+ | Project management with GitHub Issues + Git worktrees for parallel agent execution |
