@@ -657,6 +657,8 @@ Thirty-five curated skill modules included in this repo, with access to **400,00
 | [agentkit-seo](https://github.com/agentkit-seo/agentkit-seo) | `npx agentkit-seo install --provider claude-code` | AI agent skill for auditing and optimizing GitHub profiles and repositories. Covers bio, pinned repos, README structure, topics, Copilot instructions, and language stats. |
 | [active-listening](https://github.com/josharsh/active-listening) | `/plugin marketplace add https://github.com/josharsh/active-listening` | Detect developer preferences during conversation ("never push without asking", "always use const") and remember them across sessions. Auto-saves to disk and re-applies in every future conversation |
 | [StyleSeed](https://github.com/bitjaru/styleseed) | `skills/styleseed/` | Design judgment: 69 visual rules, brand skins, professional UI |
+| [SwarmClaw](https://github.com/swarmclawai/swarmclaw) | `git clone https://github.com/swarmclawai/swarmclaw && cp -r swarmclaw/skills/swarmclaw.md ~/.claude/skills/swarmclaw.md` | Self-hosted runtime for autonomous AI agents. Multi-provider, MCP-native, with memory, runtime skills, delegation, schedules, and reviewed conversation-to-skill learning across OpenClaw gateways and other providers |
+| [SwarmVault](https://github.com/swarmclawai/swarmvault) | `/plugin marketplace add swarmclawai/swarmvault && /plugin install swarmvault@swarmvault` | Local-first RAG knowledge vault. Compiles raw sources into a durable markdown wiki with a knowledge graph and a hybrid SQLite FTS plus embeddings index. Bundled MCP server (`npx -y @swarmvaultai/cli mcp`) exposes page search, page reads, source listing, query, ingest, compile, and lint tools |
 
 ### Installing Skills
 
